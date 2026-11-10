@@ -32,3 +32,7 @@ AI summary of the research ([zcorpan/svg-in-html-compat](https://github.com/zcor
 ## Not covered
 
 Root-page rates and rank (HTTP Archive), more than one sampled page, scripts that query or create SVG elements (`createElementNS`, `querySelector('svg path')`), SVG charts and maps, and other engines.
+
+## Reproduce
+
+This run was done with the [`httparchive` skill](https://github.com/zcorpan/web-platform-skills/blob/main/docs/httparchive.md). The steps above are standalone and rerun the same analysis without the skill.
